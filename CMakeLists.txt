@@ -30,7 +30,7 @@ find_package(PCL REQUIRED)
 find_package(OpenCV REQUIRED)
 
 include_directories(
-	${catkin_INCLUDE_DIRS} 
+	${catkin_INCLUDE_DIRS}
         ${EIGEN3_INCLUDE_DIR}
 	${PCL_INCLUDE_DIRS})
 
